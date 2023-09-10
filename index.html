@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>HNG FRONTEND TASK 1</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h3 class="title"><span>HNG INTERNSHIP</span> PROFILE CARD</h3>
+        <div class="profile">
+          <div class="profile_img">
+            <img
+              data-testid="slackDisplayImage"
+              alt="halltech"
+              src="./pic1.jpg"
+            />
+          </div>
+          <div class="profile_text">
+            <h2>
+              Username : <span data-testid="slackUserName">halltech</span>
+            </h2>
+            <h2>Track : <span data-testid="myTrack">frontend</span></h2>
+          </div>
+        </div>
+        <p class="border"></p>
+
+        <h3>Other Details</h3>
+        <div class="content">
+          <h4>
+            Current Day of the week :
+            <span data-testid="currentDayOfTheWeek"></span>
+          </h4>
+          <h4>
+            Current UTC TIME :
+            <span data-testid="currentUTCTime"></span>
+          </h4>
+
+          <h4>
+            Github URL:
+            <a data-testid="githubURL">git</a>
+          </h4>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
